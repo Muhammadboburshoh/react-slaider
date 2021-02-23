@@ -4,14 +4,6 @@
   box-sizing: border-box;
 }
 
-.container {
-  width: 1200px;
-  margin-right: auto;
-  margin-left: auto;
-  margin-top: 12px;
-  overflow: hidden;
-}
-
 h2 {
   margin-bottom: 10px;
   text-align: center;
@@ -20,7 +12,6 @@ h2 {
 :root {
   --index: 1;
 }
-
 
 .slaider {
   display: flex;
@@ -46,7 +37,6 @@ h2 {
 .slider__item:nth-child(odd) {
   background-color: #bbdfc8;
 }
-
 
 button {
   background:none;
