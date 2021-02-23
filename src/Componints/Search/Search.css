@@ -1,0 +1,16 @@
+.search {
+  margin-top: 25px;
+}
+
+.search-input {
+  padding: 10px;
+  outline: none;
+  width: 25%;
+  border-radius: 20px;
+  border: 1px solid #123;
+  margin-bottom: 15px;
+}
+
+li {
+  font-size: 18px;
+}

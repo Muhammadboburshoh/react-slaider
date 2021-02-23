@@ -5,10 +5,8 @@ import Search from "./Componints/Search/Search"
 function App() {
   return (
     <div className="container">
-    <Slider />
-    <br/>
-    <br/>
-    <Search />
+      <Slider />
+      <Search />
     </div>
   )
 }
