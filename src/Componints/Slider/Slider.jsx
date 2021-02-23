@@ -13,6 +13,7 @@ function Slider () {
 
   return (
     <div className="container">
+      <h2>Slaider</h2>
       <div className="section">
         <ul className="slaider">
           <li className="slider__item">1</li>
@@ -25,8 +26,10 @@ function Slider () {
           <li className="slider__item">8</li>
         </ul>
       </div>
-      <button onClick={e => setIndex(index - 1)}>Orqga</button>
-      <button onClick={e => setIndex(index + 1)}>oldinga</button>
+      <div className="buttons">
+        <button onClick={e => setIndex(index - 1)}>Orqga</button>
+        <button onClick={e => setIndex(index + 1)}>oldinga</button>
+      </div>
     </div>
 
   )

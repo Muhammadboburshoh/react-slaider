@@ -12,6 +12,11 @@
   overflow: hidden;
 }
 
+h2 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
 :root {
   --index: 1;
 }
@@ -40,4 +45,20 @@
 }
 .slider__item:nth-child(odd) {
   background-color: #bbdfc8;
+}
+
+
+button {
+  background:none;
+  padding: 8px;
+  border-radius: 3px;
+  margin-right: 20px;
+  margin-top: 15px;
+  border: 1px solid #123;
+  outline: none;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
 }
