@@ -13,7 +13,8 @@ function Search () {
     "Sirojiddin",
     "Ayubxon",
     "Muhammadjavohir",
-    "Kamoliddin"
+    "Kamoliddin",
+    "Abdulbosit"
   ]
 
   const [filter, setFilter] = useState("")
